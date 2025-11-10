@@ -1,17 +1,10 @@
-# Portfolio Website — Interview Edition
+# mkabiaPortfolio Website — Interview Edition
 
 **Date prepared:** 2025-10-08
 
 This mini‑portfolio demonstrates solid front‑end fundamentals with an emphasis on **accessibility**, **performance**, **responsive design**, and **clean code** — exactly what most web design & development teams look for.
 
 ---
-
-## How to run
-Just open `index.html` in a browser. No build step or tooling required.
-
----
-
-## Highlights to mention in your interview
 
 ### 1) HTML semantics & accessibility
 - Landmarks: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
@@ -60,4 +53,4 @@ Just open `index.html` in a browser. No build step or tooling required.
 - Add a real **projects.json** and client‑side rendering with robust error states.
 - Lighthouse budget and CI checks (GitHub Actions) for performance/a11y regressions.
 
-Good luck — you’ve got this!
+
