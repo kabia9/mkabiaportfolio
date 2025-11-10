@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Kabia · Web Design & Development</title>
+  <meta name="description" content="Portfolio of Mohamed Kabia — web design & front‑end development. Case studies, projects, and contact." />
+  <meta name="author" content="Mohamed Kabia" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta property="og:title" content="Mohamed Kabia · Web Design & Development" />
+  <meta property="og:description" content="Case studies, projects, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/avatar.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="#top" aria-label="Homepage" title="Homepage">
+        <img src="assets/favicon.svg" width="24" height="24" alt="" aria-hidden="true">
+        <span>MK</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" id="navToggle">
+        <span class="sr-only">Toggle menu</span>☰
+      </button>
+      <ul class="nav__list" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="themeToggle" class="theme-toggle" aria-pressed="false" title="Toggle dark mode">🌓</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero__text">
+        <h1 id="intro-title">Hi, I’m <span class="accent">Mohamed Kabia</span> — I design & build accessible, fast, and beautiful websites.</h1>
+        <p class="lead">I combine user‑centered design with clean, semantic code. Below are 3 representative projects showing design systems, responsive layouts, and API integration.</p>
+        <div class="cta-row">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="highlights" role="list">
+          <li>✓ Semantic HTML, modern CSS (Grid/Flex), accessible JS</li>
+          <li>✓ Performance: lazy images, preloads, minified assets</li>
+          <li>✓ Tooling‑ready structure for scale (components & tokens)</li>
+        </ul>
+      </div>
+      <figure class="hero__media">
+        <img src="assets/avatar.svg" width="320" height="320" alt="Abstract avatar logo of MK" loading="eager" decoding="async">
+      </figure>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About</h2>
+        <p>I’m a web design & development enthusiast focused on crafting maintainable front‑ends and smooth user experiences. I pay special attention to accessibility (WCAG), SEO, and real‑world performance. I’m comfortable with semantic HTML, modern CSS, vanilla JS, and can integrate with APIs or backends.</p>
+        <div class="stats">
+          <div><strong>3</strong><span>Case studies</span></div>
+          <div><strong>5</strong><span>Core competencies</span></div>
+          <div><strong>100%</strong><span>Lighthouse a11y target</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Selected Projects</h2>
+
+        <article class="card">
+          <img src="assets/project1.svg" width="960" height="540" alt="Responsive marketing website mockup displayed on phone and laptop" loading="lazy" decoding="async">
+          <div class="card__content">
+            <h3>Responsive Marketing Site</h3>
+            <p>Mobile‑first landing page with CSS Grid/Flexbox, accessible navigation, and <code>prefers-reduced-motion</code> support. Achieved sub‑1s LCP on 3G simulation.</p>
+            <ul class="tags" role="list">
+              <li>HTML</li><li>CSS Grid</li><li>A11y</li><li>Perf</li>
+            </ul>
+            <button class="btn btn--link" data-modal="cs1" aria-haspopup="dialog" aria-controls="modal-cs1">Read case study</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/project2.svg" width="960" height="540" alt="Dashboard UI with charts and cards" loading="lazy" decoding="async">
+          <div class="card__content">
+            <h3>Dashboard UI (Design System)</h3>
+            <p>Token‑based styling and utility classes; responsive cards, tables, and modals. Focus states and keyboard navigation supported across components.</p>
+            <ul class="tags" role="list">
+              <li>Design Tokens</li><li>Components</li><li>ARIA</li>
+            </ul>
+            <button class="btn btn--link" data-modal="cs2" aria-haspopup="dialog" aria-controls="modal-cs2">Read case study</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/project3.svg" width="960" height="540" alt="Recipe finder search interface" loading="lazy" decoding="async">
+          <div class="card__content">
+            <h3>Recipe Finder (API Integration)</h3>
+            <p>Front‑end search UI with debounced input and client‑side rendering from a mock API. Graceful error handling and empty‑state UX.</p>
+            <ul class="tags" role="list">
+              <li>Fetch</li><li>Accessibility</li><li>UX Writing</li>
+            </ul>
+            <button class="btn btn--link" data-modal="cs3" aria-haspopup="dialog" aria-controls="modal-cs3">Read case study</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <h2 id="process-title">My Process</h2>
+        <ol class="process-list">
+          <li><strong>Discover:</strong> Clarify objectives, audiences, constraints.</li>
+          <li><strong>Design:</strong> Low‑fi wireframes → hi‑fi mockups. Choose tokens & type scale.</li>
+          <li><strong>Develop:</strong> Semantic HTML, CSS modules, progressive enhancement.</li>
+          <li><strong>Deliver:</strong> QA with keyboard, screen readers, and Lighthouse budget.</li>
+          <li><strong>Iterate:</strong> Measure, A/B test, and refine.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <p>Like what you see? Let’s talk. This form opens your email client with a prefilled message.</p>
+        <form class="contact-form" id="contactForm" action="mailto:someone@example.com" method="get" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="body" rows="4" required></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">Send email</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mohamed Kabia. Built with semantic HTML, modern CSS, and accessible JS.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Accessible modal dialogs for case studies -->
+  <dialog class="modal" id="modal-cs1" aria-labelledby="modal-cs1-title">
+    <article>
+      <h3 id="modal-cs1-title">Responsive Marketing Site — Case Study</h3>
+      <p><strong>Goal:</strong> Create a fast, mobile‑first landing page.</p>
+      <ul>
+        <li>Built with Grid/Flex, CSS clamp() for fluid type, and content‑visibility.</li>
+        <li>Optimized LCP image with width/height, lazy loading, and proper priority hints.</li>
+        <li>Tested keyboard and screen reader flows; ensured 4.5:1 contrast.</li>
+      </ul>
+      <form method="dialog"><button class="btn">Close</button></form>
+    </article>
+  </dialog>
+
+  <dialog class="modal" id="modal-cs2" aria-labelledby="modal-cs2-title">
+    <article>
+      <h3 id="modal-cs2-title">Dashboard UI — Case Study</h3>
+      <p><strong>Goal:</strong> Establish a small design system.</p>
+      <ul>
+        <li>Design tokens for color, spacing, radius; utility classes for layout.</li>
+        <li>Accessible components: dialog, dropdown, skip links, focus management.</li>
+        <li>Documented usage and made components theme‑aware.</li>
+      </ul>
+      <form method="dialog"><button class="btn">Close</button></form>
+    </article>
+  </dialog>
+
+  <dialog class="modal" id="modal-cs3" aria-labelledby="modal-cs3-title">
+    <article>
+      <h3 id="modal-cs3-title">Recipe Finder — Case Study</h3>
+      <p><strong>Goal:</strong> Build a small SPA‑like interaction without a framework.</p>
+      <ul>
+        <li>Progressive enhancement: basic HTML first, JS adds filtering and state.</li>
+        <li>Debounced input and ARIA live region for results count.</li>
+        <li>Mocked fetch API to show error handling and empty states.</li>
+      </ul>
+      <form method="dialog"><button class="btn">Close</button></form>
+    </article>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
