@@ -2,7 +2,7 @@
 
 **Date prepared:** 2025-10-08
 
-This mini‑portfolio demonstrates solid front‑end fundamentals with an emphasis on **accessibility**, **performance**, **responsive design**, and **clean code** — exactly what most web design & development teams look for.
+This mini‑portfolio demonstrates solid front‑end fundamentals with an emphasis on **accessibility**, **performance**, **responsive design**, and **clean code**.
 
 ---
 
